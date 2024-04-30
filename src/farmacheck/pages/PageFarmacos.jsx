@@ -6,6 +6,7 @@ export const PageFarmacos = () => {
 
     <HomeLayout>
         <div>PageFarmacos</div> 
+        
     </HomeLayout>
     
   )

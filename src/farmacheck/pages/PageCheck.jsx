@@ -48,7 +48,7 @@ export const PageCheck = () => {
                   <>
 
                   <select className='form-control mb-4' name='form1' onChange={onInputChange}>
-                    <option selected={true}>First option...</option>
+                    <option >First option...</option>
                   {
                       data.farmacos.map((farmaco) => ( <option value={farmaco.id} key={farmaco.id}>{farmaco.name}</option> ))
                   }
@@ -57,7 +57,7 @@ export const PageCheck = () => {
 
 
                   <select className='form-control mt-4' name='form2' onChange={onInputChange}>
-                  <option selected={true}>Second option...</option>
+                  <option >Second option...</option>
                   {
                       data.farmacos.map((farmaco) => ( <option key={farmaco.id} value={farmaco.id}>{farmaco.name}</option> ))
                   }
